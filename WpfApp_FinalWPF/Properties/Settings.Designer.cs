@@ -26,5 +26,8 @@ namespace WpfApp_FinalWPF.Properties
                 return defaultInstance;
             }
         }
+
+        public double LocationLeft { get; internal set; }
+        public double LocationTop { get; internal set; }
     }
 }
