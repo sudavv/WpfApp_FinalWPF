@@ -59,23 +59,5 @@ namespace WpfApp_FinalWPF.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на .
-        /// </summary>
-        internal static string Left {
-            get {
-                return ResourceManager.GetString("Left", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на .
-        /// </summary>
-        internal static string Top {
-            get {
-                return ResourceManager.GetString("Top", resourceCulture);
-            }
-        }
     }
 }
