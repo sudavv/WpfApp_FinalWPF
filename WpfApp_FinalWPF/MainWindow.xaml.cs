@@ -53,8 +53,8 @@ namespace WpfApp_FinalWPF
             }
             catch
             { // если нет конфига, то располагаем форму в центре экрана
-                Left = System.Windows.SystemParameters.PrimaryScreenWidth;
-                Top = System.Windows.SystemParameters.PrimaryScreenHeight;
+                //Left = System.Windows.SystemParameters.PrimaryScreenWidth;
+                //Top = System.Windows.SystemParameters.PrimaryScreenHeight;
                 return;
             }
         }
